@@ -1,0 +1,92 @@
+[
+  {
+    "image": "https://ibb.co.com/bjVPWPp7",
+    "title": "FitZone",
+    "companyName": "FitZone Labs",
+    "id": 101,
+    "description": "FitZone helps you track workouts, monitor calories, and maintain your fitness goals. It provides personalized workout suggestions and integrates with smart wearables to track your daily activity.",
+    "size": 72,
+    "reviews": 15400,
+    "ratingAvg": 4.6,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 8920 }
+    ]
+  },
+  {
+    "image": "https://ibb.co.com/bR1djgcm",
+    "title": "SnapCam",
+    "companyName": "PixelCraft Studio",
+    "id": 102,
+    "description": "SnapCam is an AI-powered photo editing app that enhances your selfies, applies professional filters, and lets you create stunning visual stories instantly.",
+    "size": 58,
+    "reviews": 12800,
+    "ratingAvg": 4.3,
+    "downloads": 490000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://ibb.co.com/WvpzzqdN",
+    "title": "NotePro",
+    "companyName": "MindTech Apps",
+    "id": 103,
+    "description": "NotePro allows you to create, organize, and sync your notes effortlessly across devices. With built-in cloud storage and smart search, it keeps your ideas safe and accessible anytime.",
+    "size": 49,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4900 }
+    ]
+  },
+  {
+    "image": "https://ibb.co.com/s9tC5mj5",
+    "title": "GameHub",
+    "companyName": "NextPlay Studio",
+    "id": 104,
+    "description": "GameHub brings together thousands of games in one place. Explore trending titles, track achievements, and connect with players worldwide for an ultimate gaming experience.",
+    "size": 110,
+    "reviews": 20500,
+    "ratingAvg": 4.8,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 14500 }
+    ]
+  },
+  {
+    "image": "https://ibb.co.com/MyQ51xb7",
+    "title": "TravelMate",
+    "companyName": "Wanderly Inc.",
+    "id": 105,
+    "description": "TravelMate is your ultimate travel assistant. Find affordable hotels, plan routes, and explore hidden gems across the world with smart AI-based trip suggestions.",
+    "size": 80,
+    "reviews": 16200,
+    "ratingAvg": 4.4,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 9300 }
+    ]
+  }
+]
