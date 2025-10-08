@@ -1,6 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from './../assets/logo.png'
+import { FaGithub } from "react-icons/fa6";
+import { IoHome } from "react-icons/io5";
+import { IoMdAppstore } from "react-icons/io";
+import { MdOutlineInstallDesktop } from "react-icons/md";
+import { MdOutlineInstallMobile } from "react-icons/md"
 
 const Navber = () => {
     
@@ -14,9 +19,9 @@ const Navber = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content rounded-box bg-white z-10 mt-3 w-52 p-2 shadow">
-         <li><Link to="/">Home</Link></li>
-        <li><Link to="/apps">Apps</Link></li>
-        <li><a>Installation</a></li>
+         <li><NavLink to="/" className={({isActive}) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : ''}><IoHome /> Home</NavLink></li>
+        <li><NavLink to="/apps" className={({isActive}) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : ''}><IoMdAppstore /> Apps</NavLink></li>
+        <li><NavLink to="/installation" className={({isActive}) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : ''}><MdOutlineInstallMobile /> Installation</NavLink></li>
       </ul>
     </div>
 
@@ -26,14 +31,14 @@ const Navber = () => {
     </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/apps">Apps</Link></li>
-      <li><a>Installation</a></li>
+    <ul className="menu menu-horizontal px-1 font-semibold gap-2">
+      <li><NavLink to="/" className= {({isActive}) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : ''}><IoHome /> Home</NavLink></li>
+      <li><NavLink to="/apps" className={({isActive}) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : ''}><IoMdAppstore /> Apps</NavLink></li>
+      <li><NavLink to="/installation" className={({isActive}) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : ''}><MdOutlineInstallDesktop /> Installation</NavLink></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn btn-primary w-[145px]"> Contribute</a>
+    <a href="https://github.com/AH-Muzahid" className="btn btn-primary w-[145px]"><FaGithub /> Contribute</a>
   </div>
 </div>
     );

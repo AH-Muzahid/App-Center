@@ -4,7 +4,7 @@ import AppCard from './AppCard';
 const TrendingApps = ({trendingApps}) => {
     return (
         <div>
-            <div className='text-center mt-5'>
+            <div className='text-center my-8'>
                 <h1 className='text-[48px] font-bold'>Trending Apps</h1>
                 <p className='text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
             </div>
@@ -15,7 +15,7 @@ const TrendingApps = ({trendingApps}) => {
                 
             </div>
             <div className='flex justify-center mt-6 mb-12'>
-                <button className='btn btn-primary  w-28 h-9'>See All</button>
+                <a href="/apps"><button className='btn btn-primary  w-28 h-9'>See All</button></a>
             </div>
         </div>
     );
