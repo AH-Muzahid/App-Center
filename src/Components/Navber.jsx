@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from './../assets/logo.png'
+
 import { FaGithub } from "react-icons/fa6";
 import { IoHome } from "react-icons/io5";
 import { IoMdAppstore } from "react-icons/io";
@@ -26,7 +26,7 @@ const Navber = () => {
         </div>
 
         <Link to="/" className='flex items-center gap-1'>
-          <img className='w-8' src={logo} alt="" />
+          <img className='w-8' src="https://img.icons8.com/color/480/apple-app-store--v1.png" alt="" />
           <span className=" text-xl font-bold">AppVault</span>
         </Link>
       </div>
