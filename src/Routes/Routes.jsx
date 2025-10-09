@@ -6,7 +6,8 @@ import RootError from '../pages/RootError';
 import AllApps from '../pages/AllApps';
 import AppDetails from '../pages/AppDetails';
 import Installation from '../pages/Installation';
-import Loader from '../Components/Loader';
+import AppError from '../pages/AppError';
+import LoadingSpinner from '../Components/LoadingSpinner';
 
 
 
@@ -15,32 +16,43 @@ export const router = createBrowserRouter([
     {
         path: "/",
         Component: Root,
-        hydrateFallbackElement: <Loader />,
+        hydrateFallbackElement: <LoadingSpinner />,
         children: [
             {
                 index: true,
                 loader: () => fetch('/allApps.json'),
                 path: "/",
                 Component: Home,
-                HydrateFallback: Loader,
+                HydrateFallback: LoadingSpinner,
             },
             {
                 path: "/apps",
                 loader: () => fetch('/allApps.json'),
                 Component: AllApps,
-                HydrateFallback: Loader,
+                HydrateFallback: LoadingSpinner,
             },
             {
                 path: "/app/:id",
-                loader: ({params}) => fetch('/allApps.json').then(res => res.json()).then(data => data.find(app => app.id == params.id)),
+                loader: ({params}) => {
+                    return fetch('/allApps.json')
+                        .then(res => res.json())
+                        .then(data => {
+                            const app = data.find(app => app.id == params.id);
+                            if (!app) {
+                                throw new Response("App Not Found", { status: 404 });
+                            }
+                            return app;
+                        });
+                },
                 Component: AppDetails,
-                HydrateFallback: Loader,
+                HydrateFallback: LoadingSpinner,
+                errorElement: <AppError />,
             },
             {
                 path: "/installation",
                 loader: () => fetch('/allApps.json'),
                 Component: Installation,
-                HydrateFallback: Loader,
+                HydrateFallback: LoadingSpinner,
             },
             {
                 path: "*",

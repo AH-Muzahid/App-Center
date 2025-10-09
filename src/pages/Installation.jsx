@@ -4,7 +4,10 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { getStoredApps, removeFromDb } from '../Utility/install';
 import Downicon from '../assets/icon-downloads.png'
 import Ratingicon from '../assets/icon-ratings.png'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
+const MySwal = withReactContent(Swal)
 const Installation = () => {
     const allApps = useLoaderData();
     const [installedAppIds, setInstalledAppIds] = useState([]);
@@ -24,10 +27,38 @@ const Installation = () => {
     }, []);
 
     const handleUninstall = (id) => {
-        removeFromDb(id);
-        setInstalledAppIds(getStoredApps());
-        alert('App uninstalled successfully!');
+        MySwal.fire({
+            title: "Are you sure?",
+            text: "This app will be uninstalled!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, uninstall it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                removeFromDb(id);
+                setInstalledAppIds(getStoredApps());
+                MySwal.fire({
+                    title: "Uninstalled!",
+                    text: "Your app has been uninstalled.",
+                    icon: "success",
+                    timer: 2000,
+                    showConfirmButton: false
+                });
+            }
+            else {
+                MySwal.fire({
+                    title: "Cancelled",
+                    text: "Your app is safe <3",
+                    icon: "success",
+                    timer: 2000,
+                    showConfirmButton: false
+                });
+            }
+        });
     };
+
 
     return (
         <div className="container mx-auto px-5 py-8 ">
@@ -49,11 +80,11 @@ const Installation = () => {
 
                 {installedApps.length > 0 ? (
                     installedApps.map((app) => (
-                        <div key={app.id} className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm mb-4">
+                        <div key={app.id} className="flex items-center gap-2 md:gap-4 bg-white p-4 rounded-lg shadow-sm mb-4">
                             <img className="w-16 h-16 object-contain" src={app.image} alt={app.title} />
                             <div className="flex-1">
                                 <h2 className="text-lg font-semibold">{app.title}</h2>
-                                <div className="flex items-center gap-3 mt-2">
+                                <div className="flex items-center gap-1 md:gap-3 mt-2">
                                     <p className="flex items-center gap-1 text-[#00D390] bg-[#F1F5E8] px-2 py-0.5 rounded-sm text-sm">
                                         <img src={Downicon} alt="downloads" className="w-3 h-3" /> {app.downloads}
                                     </p>
@@ -65,7 +96,7 @@ const Installation = () => {
                             </div>
                             <button
                                 onClick={() => handleUninstall(app.id)}
-                                className='text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-sm'
+                                className='text-white bg-red-500 hover:bg-red-600 px-2 md:px-6 py-2 rounded-sm'
                             >
                                 Uninstall
                             </button>

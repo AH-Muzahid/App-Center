@@ -7,12 +7,18 @@ import { Outlet } from 'react-router';
 
 const Root = () => {
     return (
-        <div className='max-w-[1240px] mx-auto '>
-        <Navber></Navber>
-        <Suspense fallback={<LoadingSpinner />}>
-            <Outlet></Outlet>
-        </Suspense>
-        <Footer></Footer> 
+        <div>
+        <div className='max-w-[1220px] mx-auto'>
+            <Navber></Navber>
+        </div>
+        <div className='max-w-[1220px] mx-auto px-4'>
+            <Suspense fallback={<LoadingSpinner />}>
+                <Outlet></Outlet>
+            </Suspense>
+        </div>
+        <div className='max-w-[1220px] mx-auto'>
+            <Footer></Footer>
+        </div> 
     </div>
     );
 };

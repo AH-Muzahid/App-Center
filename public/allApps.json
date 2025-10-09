@@ -142,5 +142,437 @@
     "id": 8,
     "image": "https://img.icons8.com/3d-fluency/375/telegram.png",
     "downloads": "6.1M"
+  },
+  {
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "description": "Watch TV shows and movies anytime, anywhere. Netflix offers thousands of titles across all genres, from award-winning series to blockbuster films. Download content to watch offline, create multiple profiles for your family, and get personalized recommendations. Enjoy unlimited streaming with no ads on most plans, and discover new content from around the world.",
+    "size": 180,
+    "reviews": "25.3K",
+    "ratingAvg": 4.7,
+    "ratings": [
+      {"name": "1 star", "count": 506},
+      {"name": "2 star", "count": 759},
+      {"name": "3 star", "count": 2530},
+      {"name": "4 star", "count": 7590},
+      {"name": "5 star", "count": 13915}
+    ],
+    "id": 9,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "15.2M"
+  },
+  {
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Listen to millions of songs and podcasts for free. Discover new music, create playlists, and follow your favorite artists. Spotify offers personalized recommendations based on your listening habits. Premium subscribers can download music for offline listening and enjoy ad-free streaming with higher audio quality.",
+    "size": 95,
+    "reviews": "32.1K",
+    "ratingAvg": 4.5,
+    "ratings": [
+      {"name": "1 star", "count": 642},
+      {"name": "2 star", "count": 963},
+      {"name": "3 star", "count": 3210},
+      {"name": "4 star", "count": 9630},
+      {"name": "5 star", "count": 17655}
+    ],
+    "id": 10,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "18.7M"
+  },
+  {
+    "title": "Twitter",
+    "companyName": "X Corp.",
+    "description": "Stay connected to what's happening in the world. Follow your interests, connect with friends, and join conversations about trending topics. Share your thoughts in tweets, retweet interesting content, and discover news and entertainment. Twitter keeps you informed about current events and lets you engage with a global community.",
+    "size": 68,
+    "reviews": "14.8K",
+    "ratingAvg": 3.9,
+    "ratings": [
+      {"name": "1 star", "count": 1480},
+      {"name": "2 star", "count": 1776},
+      {"name": "3 star", "count": 2960},
+      {"name": "4 star", "count": 4440},
+      {"name": "5 star", "count": 4144}
+    ],
+    "id": 11,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "11.3M"
+  },
+  {
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "description": "Build your professional network and advance your career. Connect with colleagues, industry professionals, and potential employers. Share professional updates, articles, and achievements. LinkedIn helps you discover job opportunities, develop skills through LinkedIn Learning, and stay updated with industry news and trends.",
+    "size": 125,
+    "reviews": "8.9K",
+    "ratingAvg": 4.2,
+    "ratings": [
+      {"name": "1 star", "count": 445},
+      {"name": "2 star", "count": 534},
+      {"name": "3 star", "count": 1780},
+      {"name": "4 star", "count": 3560},
+      {"name": "5 star", "count": 2681}
+    ],
+    "id": 12,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "6.8M"
+  },
+  {
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Chat, hang out, and stay close with your friends and communities. Join servers based on your interests, participate in voice and video calls, and share screens with friends. Discord offers text, voice, and video communication tools designed for creating communities and staying connected with friends while gaming or just hanging out.",
+    "size": 88,
+    "reviews": "19.7K",
+    "ratingAvg": 4.6,
+    "ratings": [
+      {"name": "1 star", "count": 394},
+      {"name": "2 star", "count": 591},
+      {"name": "3 star", "count": 1970},
+      {"name": "4 star", "count": 6889},
+      {"name": "5 star", "count": 9856}
+    ],
+    "id": 13,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "13.5M"
+  },
+  {
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "description": "Video conferencing, web conferencing, and webinars made easy. Host or join meetings from anywhere, share your screen, and collaborate with team members. Zoom offers reliable video and audio quality for business meetings, online classes, and virtual events. Features include recording, breakout rooms, and integration with calendar apps.",
+    "size": 156,
+    "reviews": "12.4K",
+    "ratingAvg": 4.3,
+    "ratings": [
+      {"name": "1 star", "count": 620},
+      {"name": "2 star", "count": 744},
+      {"name": "3 star", "count": 2480},
+      {"name": "4 star", "count": 4960},
+      {"name": "5 star", "count": 3596}
+    ],
+    "id": 14,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "9.8M"
+  },
+  {
+    "title": "Uber",
+    "companyName": "Uber Technologies Inc.",
+    "description": "Request a ride, get food delivered, and more with Uber. Book rides in minutes, track your driver in real-time, and pay seamlessly through the app. Uber connects you with reliable transportation options in your city. Choose from various ride types including economy, premium, and shared rides to fit your needs and budget.",
+    "size": 142,
+    "reviews": "28.6K",
+    "ratingAvg": 4.1,
+    "ratings": [
+      {"name": "1 star", "count": 1430},
+      {"name": "2 star", "count": 1716},
+      {"name": "3 star", "count": 5720},
+      {"name": "4 star", "count": 11440},
+      {"name": "5 star", "count": 8294}
+    ],
+    "id": 15,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "22.1M"
+  },
+  {
+    "title": "Amazon",
+    "companyName": "Amazon.com Inc.",
+    "description": "Shop millions of products, get fast delivery, and enjoy exclusive deals. Browse categories from electronics to fashion, read customer reviews, and track your orders. Amazon Prime members get free shipping, exclusive deals, and access to Prime Video. The app makes shopping convenient with features like one-click ordering and personalized recommendations.",
+    "size": 167,
+    "reviews": "45.2K",
+    "ratingAvg": 4.4,
+    "ratings": [
+      {"name": "1 star", "count": 2260},
+      {"name": "2 star", "count": 2712},
+      {"name": "3 star", "count": 9040},
+      {"name": "4 star", "count": 18080},
+      {"name": "5 star", "count": 13108}
+    ],
+    "id": 16,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "35.7M"
+  },
+  {
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Navigate your world faster and easier with Google Maps. Get real-time GPS navigation, traffic updates, and transit information. Discover local businesses, restaurants, and attractions with reviews and photos. Download offline maps for areas you visit frequently. Google Maps helps you explore and navigate with confidence wherever you go.",
+    "size": 134,
+    "reviews": "52.8K",
+    "ratingAvg": 4.8,
+    "ratings": [
+      {"name": "1 star", "count": 1056},
+      {"name": "2 star", "count": 1584},
+      {"name": "3 star", "count": 5280},
+      {"name": "4 star", "count": 15840},
+      {"name": "5 star", "count": 29040}
+    ],
+    "id": 17,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "41.2M"
+  },
+  {
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "description": "Secure, smart, and easy to use email app. Organize your inbox with labels, filters, and priority markers. Get 15GB of free storage, powerful spam protection, and seamless integration with other Google services. Gmail works across all your devices and offers offline access to your emails. Stay productive with features like Smart Compose and Smart Reply.",
+    "size": 89,
+    "reviews": "38.9K",
+    "ratingAvg": 4.6,
+    "ratings": [
+      {"name": "1 star", "count": 778},
+      {"name": "2 star", "count": 1167},
+      {"name": "3 star", "count": 3890},
+      {"name": "4 star", "count": 13613},
+      {"name": "5 star", "count": 19452}
+    ],
+    "id": 18,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "28.4M"
+  },
+  {
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "description": "Collaborate and communicate with your team from anywhere. Join video meetings, chat with colleagues, and share files securely. Microsoft Teams integrates with Office 365 apps for seamless productivity. Features include screen sharing, recording meetings, and creating channels for different projects and topics.",
+    "size": 198,
+    "reviews": "16.7K",
+    "ratingAvg": 4.0,
+    "ratings": [
+      {"name": "1 star", "count": 1670},
+      {"name": "2 star", "count": 2004},
+      {"name": "3 star", "count": 3340},
+      {"name": "4 star", "count": 5010},
+      {"name": "5 star", "count": 4676}
+    ],
+    "id": 19,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "14.3M"
+  },
+  {
+    "title": "Skype",
+    "companyName": "Microsoft Corporation",
+    "description": "Stay connected with family and friends through free video and voice calls. Send instant messages, share photos and files, and make international calls at low rates. Skype works on all your devices and offers group video calls for up to 100 people. Perfect for personal conversations and business meetings alike.",
+    "size": 112,
+    "reviews": "11.2K",
+    "ratingAvg": 4.2,
+    "ratings": [
+      {"name": "1 star", "count": 560},
+      {"name": "2 star", "count": 672},
+      {"name": "3 star", "count": 2240},
+      {"name": "4 star", "count": 4480},
+      {"name": "5 star", "count": 3248}
+    ],
+    "id": 20,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "8.7M"
+  },
+  {
+    "title": "PayPal",
+    "companyName": "PayPal Holdings Inc.",
+    "description": "Send and receive money securely with PayPal. Pay for purchases online and in stores, split bills with friends, and manage your finances. PayPal offers buyer protection and secure transactions worldwide. Link your bank account or credit card for easy payments and money transfers to friends and family.",
+    "size": 76,
+    "reviews": "22.5K",
+    "ratingAvg": 4.3,
+    "ratings": [
+      {"name": "1 star", "count": 1125},
+      {"name": "2 star", "count": 1350},
+      {"name": "3 star", "count": 4500},
+      {"name": "4 star", "count": 9000},
+      {"name": "5 star", "count": 6525}
+    ],
+    "id": 21,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "16.8M"
+  },
+  {
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "description": "Store, sync, and share your files across all devices. Access your documents, photos, and videos from anywhere with cloud storage. Collaborate on projects with team members, share large files easily, and keep your important data backed up securely. Dropbox offers seamless file synchronization and powerful sharing features.",
+    "size": 145,
+    "reviews": "13.6K",
+    "ratingAvg": 4.4,
+    "ratings": [
+      {"name": "1 star", "count": 680},
+      {"name": "2 star", "count": 816},
+      {"name": "3 star", "count": 2720},
+      {"name": "4 star", "count": 5440},
+      {"name": "5 star", "count": 3944}
+    ],
+    "id": 22,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "10.9M"
+  },
+  {
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc.",
+    "description": "Create stunning graphics and edit photos on your mobile device. Adobe Photoshop offers professional-grade tools for photo editing, digital art creation, and graphic design. Apply filters, adjust colors, remove backgrounds, and create composite images. Perfect for photographers, designers, and creative professionals on the go.",
+    "size": 234,
+    "reviews": "7.8K",
+    "ratingAvg": 4.5,
+    "ratings": [
+      {"name": "1 star", "count": 390},
+      {"name": "2 star", "count": 468},
+      {"name": "3 star", "count": 1560},
+      {"name": "4 star", "count": 2340},
+      {"name": "5 star", "count": 3042}
+    ],
+    "id": 23,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "5.4M"
+  },
+  {
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd.",
+    "description": "Design anything with Canva's easy-to-use design tools. Create social media posts, presentations, posters, logos, and more with thousands of templates. Drag and drop elements, add text and images, and customize designs to match your brand. Canva makes professional design accessible to everyone, regardless of design experience.",
+    "size": 187,
+    "reviews": "24.1K",
+    "ratingAvg": 4.7,
+    "ratings": [
+      {"name": "1 star", "count": 482},
+      {"name": "2 star", "count": 723},
+      {"name": "3 star", "count": 2410},
+      {"name": "4 star", "count": 7230},
+      {"name": "5 star", "count": 13295}
+    ],
+    "id": 24,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "19.6M"
+  },
+  {
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "description": "Learn languages for free with fun, bite-sized lessons. Duolingo offers courses in over 40 languages with gamified learning experiences. Practice speaking, listening, reading, and writing skills through interactive exercises. Track your progress, maintain learning streaks, and compete with friends to stay motivated in your language learning journey.",
+    "size": 98,
+    "reviews": "31.4K",
+    "ratingAvg": 4.6,
+    "ratings": [
+      {"name": "1 star", "count": 628},
+      {"name": "2 star", "count": 942},
+      {"name": "3 star", "count": 3140},
+      {"name": "4 star", "count": 10982},
+      {"name": "5 star", "count": 15708}
+    ],
+    "id": 25,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "23.8M"
+  },
+  {
+    "title": "Khan Academy",
+    "companyName": "Khan Academy",
+    "description": "Learn anything, anywhere with Khan Academy's free educational content. Access thousands of lessons in math, science, history, and more. Watch instructional videos, practice exercises, and track your learning progress. Khan Academy provides personalized learning experiences for students of all ages, from elementary school through college level.",
+    "size": 156,
+    "reviews": "18.9K",
+    "ratingAvg": 4.8,
+    "ratings": [
+      {"name": "1 star", "count": 378},
+      {"name": "2 star", "count": 567},
+      {"name": "3 star", "count": 1890},
+      {"name": "4 star", "count": 5670},
+      {"name": "5 star", "count": 10395}
+    ],
+    "id": 26,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "12.7M"
+  },
+  {
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "description": "Capture ideas and organize your life with Evernote. Take notes, save web articles, scan documents, and create to-do lists. Sync your notes across all devices and access them offline. Evernote helps you stay organized with powerful search capabilities, tags, and notebooks to keep your information structured and easily accessible.",
+    "size": 123,
+    "reviews": "9.7K",
+    "ratingAvg": 4.1,
+    "ratings": [
+      {"name": "1 star", "count": 485},
+      {"name": "2 star", "count": 582},
+      {"name": "3 star", "count": 1940},
+      {"name": "4 star", "count": 3880},
+      {"name": "5 star", "count": 2813}
+    ],
+    "id": 27,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "7.2M"
+  },
+  {
+    "title": "Notion",
+    "companyName": "Notion Labs Inc.",
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases. Organize your work and personal life with customizable pages and blocks. Create documents, manage projects, track habits, and collaborate with teams. Notion combines the functionality of multiple productivity apps into one flexible platform that adapts to your workflow.",
+    "size": 167,
+    "reviews": "15.3K",
+    "ratingAvg": 4.5,
+    "ratings": [
+      {"name": "1 star", "count": 765},
+      {"name": "2 star", "count": 918},
+      {"name": "3 star", "count": 3060},
+      {"name": "4 star", "count": 4590},
+      {"name": "5 star", "count": 5967}
+    ],
+    "id": 28,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "11.8M"
+  },
+  {
+    "title": "Trello",
+    "companyName": "Atlassian Corporation",
+    "description": "Organize projects and collaborate with your team using Trello's visual boards. Create cards for tasks, move them through different stages, and track progress with lists and labels. Trello's simple drag-and-drop interface makes project management intuitive. Perfect for personal organization, team collaboration, and workflow management.",
+    "size": 89,
+    "reviews": "12.8K",
+    "ratingAvg": 4.4,
+    "ratings": [
+      {"name": "1 star", "count": 640},
+      {"name": "2 star", "count": 768},
+      {"name": "3 star", "count": 2560},
+      {"name": "4 star", "count": 5120},
+      {"name": "5 star", "count": 3712}
+    ],
+    "id": 29,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "9.3M"
+  },
+  {
+    "title": "Slack",
+    "companyName": "Slack Technologies Inc.",
+    "description": "Transform team communication with Slack's messaging platform. Create channels for different topics, send direct messages, and share files with team members. Integrate with hundreds of apps and services to streamline your workflow. Slack helps teams stay connected and productive with organized conversations and powerful search capabilities.",
+    "size": 145,
+    "reviews": "21.6K",
+    "ratingAvg": 4.3,
+    "ratings": [
+      {"name": "1 star", "count": 1080},
+      {"name": "2 star", "count": 1296},
+      {"name": "3 star", "count": 4320},
+      {"name": "4 star", "count": 8640},
+      {"name": "5 star", "count": 6264}
+    ],
+    "id": 30,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "17.4M"
+  },
+  {
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "description": "Dive into anything with Reddit, the front page of the internet. Join communities (subreddits) based on your interests, share content, and engage in discussions. Vote on posts and comments, discover trending topics, and connect with people who share your passions. Reddit offers endless entertainment, news, and community-driven content.",
+    "size": 112,
+    "reviews": "27.3K",
+    "ratingAvg": 4.2,
+    "ratings": [
+      {"name": "1 star", "count": 1365},
+      {"name": "2 star", "count": 1638},
+      {"name": "3 star", "count": 5460},
+      {"name": "4 star", "count": 10920},
+      {"name": "5 star", "count": 7917}
+    ],
+    "id": 31,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "20.5M"
+  },
+  {
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "description": "Discover ideas for your life with Pinterest. Find recipes, home decor inspiration, fashion trends, and DIY projects. Create boards to save ideas you love, and get personalized recommendations based on your interests. Pinterest helps you plan projects, discover new hobbies, and find inspiration for everything from weddings to weekend activities.",
+    "size": 134,
+    "reviews": "19.8K",
+    "ratingAvg": 4.4,
+    "ratings": [
+      {"name": "1 star", "count": 990},
+      {"name": "2 star", "count": 1188},
+      {"name": "3 star", "count": 3960},
+      {"name": "4 star", "count": 7920},
+      {"name": "5 star", "count": 5742}
+    ],
+    "id": 32,
+    "image": "https://img.icons8.com/cute-clipart/512/apple-app-store.png",
+    "downloads": "14.7M"
   }
 ]

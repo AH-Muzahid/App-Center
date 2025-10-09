@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, } from 'react-router-dom';
 import d from "../assets/icon-downloads.png"
 import r from "../assets/icon-ratings.png"
 import rev from '../assets/icon-review.png'
@@ -42,7 +42,10 @@ const AppDetails = () => {
 
     return (
         <div className="container mx-auto py-8">
-            <div className="flex flex-col md:flex-row gap-8 border-b-2 border-gray-100 px-5">
+            <button onClick={() => window.history.back()} className="mb-4 px-3 py-1.5 bg-gray-100 hover:bg-gray-200 rounded-sm text-gray-700 font-medium">
+                ← Go Back
+            </button>
+            <div className="flex flex-col md:flex-row gap-4 md:gap-10 border-b-2 border-gray-100 px-5">
                 <img className="w-64 h-64" src={image} alt={title} />
                 <div className='mx-5'>
                     <div className='border-b-2 border-gray-100'>
