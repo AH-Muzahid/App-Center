@@ -9,7 +9,7 @@ const AllAppCard = ({allApps}) => {
             <Link to={`/app/${allApps.id}`}>
                 <div className="card w-full sm:max-w-[275px] shadow-sm cursor-pointer hover:shadow-md transition-shadow">
                     <figure className='rounded-sm bg-gray-50 flex justify-center items-center h-[220px] sm:h-[200px]'>
-                        <img className='w-[160px] h-[160px] sm:w-[140px] sm:h-[140px] object-contain'
+                        <img className='w-[200px] h-[200px] object-contain'
                             src={image}
                             alt={title} />
                     </figure>

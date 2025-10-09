@@ -10,7 +10,7 @@ const AppCard = ({ App }) => {
         <Link to={`/app/${App.id}`}>
             <div className="card w-full sm:max-w-[275px] shadow-sm hover:shadow-md transition-shadow">
                 <figure className='rounded-sm bg-gray-50 flex justify-center items-center h-[220px] sm:h-[200px]'>
-                    <img className='w-[200px] h-[200px] md:w-[200px] md:h-[200px] object-contain'
+                    <img className='w-[200px] h-[200px] object-contain'
                         src={image}
                         alt={title} />
                 </figure>
