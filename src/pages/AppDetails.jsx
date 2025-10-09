@@ -47,7 +47,7 @@ const AppDetails = () => {
             </button>
             <div className="flex flex-col md:flex-row gap-4 md:gap-10 border-b-2 border-gray-100 px-5">
                 <img className="w-64 h-64" src={image} alt={title} />
-                <div className='mx-5'>
+                <div className='mx-5 my-1.5'>
                     <div className='border-b-2 border-gray-100'>
                         <h1 className="text-2 xl font-bold">{title}</h1>
                         <p className="text-gray-600 mb-2">Developed by <span className='text-blue-600'>{companyName}</span></p>
