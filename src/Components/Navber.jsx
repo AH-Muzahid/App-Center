@@ -27,7 +27,7 @@ const Navber = () => {
 
         <Link to="/" className='flex items-center gap-1'>
           <img className='w-8' src={logo} alt="" />
-          <span className=" text-xl">Hero Apps</span>
+          <span className=" text-xl font-bold">AppVault</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
