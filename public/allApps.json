@@ -1,92 +1,146 @@
 [
   {
-    "image": "https://ibb.co.com/bjVPWPp7",
-    "title": "FitZone",
-    "companyName": "FitZone Labs",
-    "id": 101,
-    "description": "FitZone helps you track workouts, monitor calories, and maintain your fitness goals. It provides personalized workout suggestions and integrates with smart wearables to track your daily activity.",
-    "size": 72,
-    "reviews": 15400,
-    "ratingAvg": 4.6,
-    "downloads": 520000,
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "description": "Connect with friends and the world around you on Facebook. Share updates, photos, and videos with your network. Join communities, follow pages you're interested in, and discover new content. Stay connected with family and friends, no matter where they are. Facebook helps you build meaningful relationships and share life's moments with the people who matter most to you.",
+    "size": 85,
+    "reviews": "2.5K",
+    "ratingAvg": 4.2,
     "ratings": [
-      { "name": "1 star", "count": 480 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 4200 },
-      { "name": "5 star", "count": 8920 }
-    ]
+      {"name": "1 star", "count": 125},
+      {"name": "2 star", "count": 200},
+      {"name": "3 star", "count": 375},
+      {"name": "4 star", "count": 800},
+      {"name": "5 star", "count": 1000}
+    ],
+    "id": 1,
+    "image": "https://img.icons8.com/color/480/facebook.png",
+    "downloads": "5.2M"
   },
   {
-    "image": "https://ibb.co.com/bR1djgcm",
-    "title": "SnapCam",
-    "companyName": "PixelCraft Studio",
-    "id": 102,
-    "description": "SnapCam is an AI-powered photo editing app that enhances your selfies, applies professional filters, and lets you create stunning visual stories instantly.",
-    "size": 58,
-    "reviews": 12800,
-    "ratingAvg": 4.3,
-    "downloads": 490000,
-    "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3800 },
-      { "name": "5 star", "count": 6000 }
-    ]
-  },
-  {
-    "image": "https://ibb.co.com/WvpzzqdN",
-    "title": "NotePro",
-    "companyName": "MindTech Apps",
-    "id": 103,
-    "description": "NotePro allows you to create, organize, and sync your notes effortlessly across devices. With built-in cloud storage and smart search, it keeps your ideas safe and accessible anytime.",
-    "size": 49,
-    "reviews": 9800,
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "Watch, upload, and share videos with the world on YouTube. Discover millions of videos covering everything from music and entertainment to education and news. Create your own channel, subscribe to your favorite creators, and build a community around your interests. YouTube offers endless entertainment and learning opportunities for users of all ages and interests.",
+    "size": 120,
+    "reviews": "8.7K",
     "ratingAvg": 4.5,
-    "downloads": 320000,
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 900 },
-      { "name": "4 star", "count": 3000 },
-      { "name": "5 star", "count": 4900 }
-    ]
+      {"name": "1 star", "count": 435},
+      {"name": "2 star", "count": 522},
+      {"name": "3 star", "count": 1305},
+      {"name": "4 star", "count": 2610},
+      {"name": "5 star", "count": 3828}
+    ],
+    "id": 2,
+    "image": "https://img.icons8.com/3d-fluency/375/youtube-play.png",
+    "downloads": "10.8M"
   },
   {
-    "image": "https://ibb.co.com/s9tC5mj5",
-    "title": "GameHub",
-    "companyName": "NextPlay Studio",
-    "id": 104,
-    "description": "GameHub brings together thousands of games in one place. Explore trending titles, track achievements, and connect with players worldwide for an ultimate gaming experience.",
-    "size": 110,
-    "reviews": 20500,
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms Inc.",
+    "description": "Simple, reliable, and secure messaging for everyone. Send text messages, voice messages, photos, videos, and documents to your contacts for free. Make voice and video calls with end-to-end encryption. Create group chats with family and friends. WhatsApp keeps you connected with the people who matter most, with privacy and security built in from the ground up.",
+    "size": 65,
+    "reviews": "12.3K",
     "ratingAvg": 4.8,
-    "downloads": 980000,
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 4000 },
-      { "name": "5 star", "count": 14500 }
-    ]
+      {"name": "1 star", "count": 246},
+      {"name": "2 star", "count": 369},
+      {"name": "3 star", "count": 984},
+      {"name": "4 star", "count": 3690},
+      {"name": "5 star", "count": 7011}
+    ],
+    "id": 3,
+    "image": "https://img.icons8.com/color/480/whatsapp--v1.png",
+    "downloads": "8.9M"
   },
   {
-    "image": "https://ibb.co.com/MyQ51xb7",
-    "title": "TravelMate",
-    "companyName": "Wanderly Inc.",
-    "id": 105,
-    "description": "TravelMate is your ultimate travel assistant. Find affordable hotels, plan routes, and explore hidden gems across the world with smart AI-based trip suggestions.",
-    "size": 80,
-    "reviews": 16200,
-    "ratingAvg": 4.4,
-    "downloads": 750000,
+    "title": "Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "description": "Stay connected with friends and family through Messenger. Send messages, make voice and video calls, share photos and videos, and play games together. Create group chats, send money to friends, and use fun filters and effects. Messenger makes it easy to stay in touch with the people you care about, whether you're across the room or across the world.",
+    "size": 78,
+    "reviews": "3.2K",
+    "ratingAvg": 4.1,
     "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 4300 },
-      { "name": "5 star", "count": 9300 }
-    ]
+      {"name": "1 star", "count": 320},
+      {"name": "2 star", "count": 384},
+      {"name": "3 star", "count": 640},
+      {"name": "4 star", "count": 1024},
+      {"name": "5 star", "count": 832}
+    ],
+    "id": 4,
+    "image": "https://img.icons8.com/3d-fluency/375/facebook-messenger.png",
+    "downloads": "4.7M"
+  },
+  {
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "description": "Create, watch, and share short-form videos on TikTok. Discover trending content, follow your favorite creators, and join viral challenges. Use creative tools, filters, and effects to make your own videos. TikTok's algorithm learns your preferences to show you personalized content. Express yourself, discover new talents, and be part of a global community of creators and viewers.",
+    "size": 95,
+    "reviews": "15.6K",
+    "ratingAvg": 4.3,
+    "ratings": [
+      {"name": "1 star", "count": 780},
+      {"name": "2 star", "count": 936},
+      {"name": "3 star", "count": 2340},
+      {"name": "4 star", "count": 4680},
+      {"name": "5 star", "count": 6864}
+    ],
+    "id": 5,
+    "image": "https://img.icons8.com/ios-filled/500/tiktok--v1.png",
+    "downloads": "12.4M"
+  },
+  {
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Share moments with friends through photos and videos that disappear. Use fun filters, lenses, and Bitmoji to express yourself. Create Stories to share your day with friends, and discover content from publishers and creators. Snapchat's camera-first approach makes it easy to capture and share life's moments in a fun and creative way with augmented reality features.",
+    "size": 110,
+    "reviews": "6.8K",
+    "ratingAvg": 4.0,
+    "ratings": [
+      {"name": "1 star", "count": 680},
+      {"name": "2 star", "count": 816},
+      {"name": "3 star", "count": 1360},
+      {"name": "4 star", "count": 2040},
+      {"name": "5 star", "count": 1904}
+    ],
+    "id": 6,
+    "image": "https://img.icons8.com/3d-fluency/375/snapchat-squared.png",
+    "downloads": "7.3M"
+  },
+  {
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "description": "Share photos and videos with friends and followers on Instagram. Discover amazing content from creators around the world, follow your interests, and connect with your community. Use creative tools, filters, and effects to make your posts stand out. Instagram Stories lets you share moments that disappear after 24 hours. Explore Reels for short-form video content and IGTV for longer videos.",
+    "size": 75,
+    "reviews": "18.2K",
+    "ratingAvg": 4.4,
+    "ratings": [
+      {"name": "1 star", "count": 910},
+      {"name": "2 star", "count": 1092},
+      {"name": "3 star", "count": 2730},
+      {"name": "4 star", "count": 5460},
+      {"name": "5 star", "count": 8008}
+    ],
+    "id": 7,
+    "image": "https://img.icons8.com/3d-fluency/375/instagram-logo.png",
+    "downloads": "9.1M"
+  },
+  {
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Fast, secure, and cloud-based messaging app. Send messages, photos, videos, and files of any type up to 2GB. Create groups with up to 200,000 members or channels for broadcasting to unlimited audiences. Telegram offers powerful privacy features, including secret chats with end-to-end encryption and self-destructing messages. Sync seamlessly across all your devices with cloud storage.",
+    "size": 42,
+    "reviews": "9.4K",
+    "ratingAvg": 4.6,
+    "ratings": [
+      {"name": "1 star", "count": 188},
+      {"name": "2 star", "count": 282},
+      {"name": "3 star", "count": 940},
+      {"name": "4 star", "count": 3290},
+      {"name": "5 star", "count": 4700}
+    ],
+    "id": 8,
+    "image": "https://img.icons8.com/3d-fluency/375/telegram.png",
+    "downloads": "6.1M"
   }
 ]

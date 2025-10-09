@@ -9,26 +9,26 @@ const Installation = () => {
     const allApps = useLoaderData();
     const [installedAppIds, setInstalledAppIds] = useState([]);
     const [sortOrder, setSortOrder] = useState('none');
-    
+
     let installedApps = allApps.filter(app => installedAppIds.includes(app.id));
-    
+
     // Sort apps 
     if (sortOrder === 'lowToHigh') {
         installedApps = installedApps.sort((a, b) => a.size - b.size);
     } else if (sortOrder === 'highToLow') {
         installedApps = installedApps.sort((a, b) => b.size - a.size);
     }
-    
+
     useEffect(() => {
         setInstalledAppIds(getStoredApps());
     }, []);
-    
+
     const handleUninstall = (id) => {
         removeFromDb(id);
         setInstalledAppIds(getStoredApps());
         alert('App uninstalled successfully!');
     };
-    
+
     return (
         <div className="container mx-auto px-5 py-8 ">
             <div>
@@ -50,7 +50,7 @@ const Installation = () => {
                 {installedApps.length > 0 ? (
                     installedApps.map((app) => (
                         <div key={app.id} className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm mb-4">
-                            <img className="w-16 h-16" src="https://via.placeholder.com/64x64?text=App" alt={app.title} />
+                            <img className="w-16 h-16 object-contain" src={app.image} alt={app.title} />
                             <div className="flex-1">
                                 <h2 className="text-lg font-semibold">{app.title}</h2>
                                 <div className="flex items-center gap-3 mt-2">
@@ -63,7 +63,7 @@ const Installation = () => {
                                     <p className="text-[#00D390] bg-[#F1F5E8] px-2 py-0.5 rounded-sm text-sm">{app.size} MB</p>
                                 </div>
                             </div>
-                            <button 
+                            <button
                                 onClick={() => handleUninstall(app.id)}
                                 className='text-white bg-red-500 hover:bg-red-600 px-6 py-2 rounded-sm'
                             >

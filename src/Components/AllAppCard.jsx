@@ -7,10 +7,10 @@ const AllAppCard = ({allApps}) => {
         
         return (
             <Link to={`/app/${allApps.id}`}>
-                <div className="card maax-w-[2750px] shadow-sm cursor-pointer hover:shadow-md transition-shadow">
-                    <figure className='rounded-sm'>
-                        <img className='w-[300px] h-[300px] p-4 '
-                            src="https://via.placeholder.com/300x300?text=App+Image"
+                <div className="card w-full sm:max-w-[275px] shadow-sm cursor-pointer hover:shadow-md transition-shadow">
+                    <figure className='rounded-sm bg-gray-50 flex justify-center items-center h-[220px] sm:h-[200px]'>
+                        <img className='w-[160px] h-[160px] sm:w-[140px] sm:h-[140px] object-contain'
+                            src={image}
                             alt={title} />
                     </figure>
                     <div className="c ">
