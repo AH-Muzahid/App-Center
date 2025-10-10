@@ -6,7 +6,7 @@ const Footer = () => {
       <aside>
         <img className='w-18' src="https://img.icons8.com/ios-filled/500/apple-app-store--v1.png" alt="" />
         <p className="font-semibold text-xl">
-          <p className="font-bold text-2xl">AppVault</p>
+          <p className="font-bold text-2xl">App<span className='text-'>Vault</span></p>
           Providing reliable apps since 2025
         </p>
         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
