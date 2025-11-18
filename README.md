@@ -88,7 +88,7 @@ Follow these steps to run the project on your local machine:
 
 1. **Clone the repository**
    ```bash
-   git clone 
+   git clone https://github.com/AH-Muzahid/App-Center.git
    cd "Assignment 08"
    ```
 
